@@ -1,0 +1,41 @@
+/* ============================================= */
+/* !!!!         HEADER STYLE TWO CSS        !!!! */
+/* ============================================= */
+.header-style-two .menu-items-col{
+    justify-content: space-between;
+}
+.header-style-two .menu-items-col .search-header input{
+    border: 0;
+    background-color: var(--white);
+    border-radius: 10px;
+    padding: 9px 20px 9px 40px;
+}
+.header-style-two  .menu-items-col .search-header .forms-input {
+    position: relative;
+    z-index: 1;
+}
+.header-style-two  .menu-items-col .search-header .input-btn {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+}
+.header-style-two .menu-items-col .search-header .input-btn svg{
+    height: 15px;
+    width: 15px;
+}
+.header-style-two .menu-right .profile-header svg path{
+    fill: var(--white);
+}
+.header-style-two.head-sticky .announcebar {
+    padding: 0;
+    opacity: 0;
+    visibility: hidden;
+    max-height: 0;
+}
